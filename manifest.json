@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Export Tabs",
+    "description": "Export and Import Tabs",
+    "version": "0.0.1",
+    "sidebar_action": {
+        "default_title": "Export Tabs",
+        "default_panel": "sidebar/sidebar.html",
+        "default_icon": "sidebar/icon.svg"
+      },
+      "background": {
+        "scripts": ["background-script.js"]
+      },
+    "permissions": [
+        "clipboardWrite",
+        "notifications",
+        "storage",
+        "tabs",
+        "downloads"
+    ]
+}
